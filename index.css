@@ -1,27 +1,24 @@
 /* Reset some default styles for the page */
-body, p {
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    
+body,
+p {
+  margin: 0;
+  padding: 0;
+  background-color: black;
 }
 
 body {
-    background-image: url('manager.gif');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; /* Optional: Keeps the background fixed */
+  background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG83MG0wN3Bxcnpia3AxMGJiY2w4b3YzZTFpbDk4YnlpbTFnOXRkNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Xyx7ThRT2ARUbo9z28/giphy.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: Keeps the background fixed */
 }
-
 
 /* Style the h1 element */
 h1 {
-    background: white;
-    background-clip: text;
-    color: transparent;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-
+  background: white;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
 }
-
