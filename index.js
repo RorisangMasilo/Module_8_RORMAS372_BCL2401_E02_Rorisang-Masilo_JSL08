@@ -29,8 +29,12 @@ class BankBranch {
 //    - Use the `getBranchInfo` method to retrieve branch information from the instances.
 //    - Verify that `branchA` and `branchB` are both referring to the same instance by comparing them using `===`.
 
-const branchA = new BankBranch("Main Street Branch");
-const branchB = new BankBranch("Second Street Branch");
+const branchA = new BankBranch({ name: "Branch A", location: "Sandton" });
+const branchB = new BankBranch({ name: "Branch B", location: "Cape Town" });
+
+// Retrieve info
+console.log(branchA.getBranchInfo());
+console.log(branchB.getBranchInfo());
 
 // Test if branchA and branchB refer to the same instance
 console.log(branchA === branchB);
